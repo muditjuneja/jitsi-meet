@@ -10,7 +10,7 @@ import keyboardshortcut from './modules/keyboardshortcut/keyboardshortcut';
 import remoteControl from './modules/remotecontrol/RemoteControl';
 import translation from './modules/translation/translation';
 import UI from './modules/UI/UI';
-
+console.log("Loaded");
 window.APP = {
     API,
     conference,
